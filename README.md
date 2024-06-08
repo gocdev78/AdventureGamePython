@@ -17,7 +17,7 @@ PJATK - Absolutorium to gra przygodowa stworzona przy użyciu Pygame Zero. W grz
 
 ### Klasy i ich funkcjonalności:
 - **Game:** Zarządza stanem i logiką gry. Odpowiada za inicjalizację gry, rysowanie ekranu wprowadzającego i końcowego, ruch bohatera, zbieranie kluczy oraz aktualizację stanu gry.
-- **Key:** Reprezentuje klucz, który gracz musi znaleźć. Każdy klucz ma swoje unikalne właściwości takie jak pozycja w pomieszczeniu oraz czy został już zebrany.
+- **Key:** Reprezentuje ITN, który gracz musi znaleźć (i zaliczyć). Każdy klucz ma swoje unikalne właściwości takie jak pozycja w pomieszczeniu oraz czy został już zebrany.
 - **Door:** Reprezentuje drzwi, przez które bohater może przejść do innego pomieszczenia. Każde drzwi mają swoje właściwości, takie jak pozycja i stan otwarcia.
 - **Room:** Reprezentuje pomieszczenie w grze. Każde pomieszczenie ma swoje unikalne właściwości, takie jak numer pokoju, nazwa, możliwość poruszania się w lewo/prawo oraz lista drzwi.
 
